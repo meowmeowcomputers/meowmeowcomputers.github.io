@@ -1,0 +1,40 @@
+/*.dummy {
+  //dunno why, but link cancels out first element
+}*/
+
+html {
+    background: url("IMG_3517.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  h1 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.5vw;
+    text-decoration: none;
+
+  }
+  h2, a:visited, a:active, a, p{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5vw;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: grey;
+  }
+
+  .sidemenu {
+    left: 0;
+    margin: 0 0 10px 10px;
+    width: 30%;
+
+  }
+  span.spacer {
+      margin: 0 10px;
+      font-size: 1.5vw;
+  }
