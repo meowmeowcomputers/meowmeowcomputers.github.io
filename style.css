@@ -17,7 +17,7 @@ html {
     text-decoration: none;
 
   }
-  h2, a:visited, a:active, a, p{
+  h2, a:visited, a:active, a, p, .there{
     color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 1.5vw;
@@ -29,12 +29,25 @@ html {
   }
 
   .sidemenu {
-    left: 0;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    margin:auto;
     margin: 0 0 10px 10px;
-    width: 30%;
+    width: 90%;
+    /*text-align: center*/
 
   }
   span.spacer {
-      margin: 0 10px;
+      margin: 0 7px;
       font-size: 1.5vw;
+  }
+  .name {
+    position: absolute;
+    top: 33%;
+    left: 5%;
+    margin: 0 0 10px 10px;
+  }
+  .there {
+    color: #3d4756;
   }
