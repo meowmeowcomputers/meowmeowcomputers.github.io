@@ -1,48 +1,64 @@
-p , a{
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.5vw;
-  text-decoration: none;
-}
+/*.dummy {
+  //dunno why, but link cancels out first element
+}*/
 
-* { box-sizing: border-box; }
-.video-background {
-  background: #000;
-  position: fixed;
-  top: 0; right: 0; bottom: 0; left: 0;
-  z-index: -99;
-}
-.video-foreground,
-.video-background iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-}
-#vidtop-content {
-	top: 0;
-	color: #fff;
-}
-.vid-info2 { position: absolute; top: 25%; right: 0; width: 40%; height: 50%; background: rgba(0,0,0,0.1); color: white; padding: 1rem; overflow: scroll; }
-.vid-info { position: absolute; bottom: 0; left: 0; width: 50%; background: rgba(0,0,0,0); color: #fff; padding: 1rem; }
-.vid-info, h1 { font-size: 4vw; margin-top: 0; line-height: 1.2; font-family: 'Raleway', sans-serif;}
-.vid-info a { display: inline; color: #fff; text-decoration: none; background: rgba(0,0,0,0); transition: .6s; background; border-bottom: none; margin: 1rem auto; text-align: center; }
-@media (min-aspect-ratio: 16/9) {
-  .video-foreground { height: 300%; top: -100%; }
-}
-@media (max-aspect-ratio: 16/9) {
-  .video-foreground { width: 300%; left: -100%; }
-}
-@media all and (max-width: 600px) {
-.vid-info { width: 50%; padding: .5rem; }
-.vid-info h1 { margin-bottom: .2rem; }
-}
-@media all and (max-width: 500px) {
-.vid-info .acronym { display: none; }
-}
-span.spacer {
-    margin: 0 10px;
+html {
+    background: url("IMG_3517.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  h1 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.5vw;
+    text-decoration: none;
+
+  }
+  h2, a:visited, a:active, a, p, .there{
+    color: white;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.5vw;
-}
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: grey;
+  }
+
+  .sidemenu {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    margin:auto;
+    margin: 0 0 10px 10px;
+    width: 90%;
+    /*text-align: center*/
+
+  }
+  span.spacer {
+      margin: 0 7px;
+      font-size: 1.5vw;
+  }
+  .name {
+    position: absolute;
+    top: 33%;
+    left: 5%;
+    margin: 0 0 10px 10px;
+  }
+  .there {
+    color: grey;
+  }
+  .item1 {
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    width: 40%;
+    height: 50%;
+    background: rgba(0,0,0,0.1);
+    color: white;
+    padding: 1rem;
+    overflow: scroll;
+  }
