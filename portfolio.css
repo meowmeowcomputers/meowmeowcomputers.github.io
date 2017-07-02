@@ -13,14 +13,15 @@ html {
   h1 {
     color: white;
     font-family: 'Raleway', sans-serif;
-    font-size: 3.5vw;
+    font-size: 1.5vw;
     text-decoration: none;
 
   }
+
   h2, a:visited, a:active, a, p, .there{
     color: white;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.5vw;
+    font-size: 3vw;
     text-decoration: none;
   }
 
@@ -36,11 +37,17 @@ html {
     margin: 0 0 10px 10px;
     width: 90%;
     /*text-align: center*/
-
   }
+
   span.spacer {
       margin: 0 7px;
-      font-size: 1.5vw;
+      /*float: left;*/
+      margin: 5px;
+      padding: 5px;
+      color: white;
+      font-family: 'Raleway', sans-serif;
+      font-size: 3vw;
+      text-decoration: none;
   }
   .name {
     position: absolute;
@@ -61,4 +68,12 @@ html {
     color: white;
     padding: 1rem;
     overflow: scroll;
+  }
+  .responsive {
+     float: left;
+     margin: 10px;
+     padding: 10px;
+     max-width: 300px;
+     height: 300px;
+     border: 1px solid black;
   }
