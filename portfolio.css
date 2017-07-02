@@ -3,7 +3,7 @@
 }*/
 
 html {
-    background: url("IMG_3517.jpg")no-repeat center center fixed;
+    background: url("background1.jpg")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -21,7 +21,7 @@ html {
   h2, a:visited, a:active, a, p, .there{
     color: white;
     font-family: 'Raleway', sans-serif;
-    font-size: 3vw;
+    font-size: 3.8vw;
     text-decoration: none;
   }
 
@@ -31,7 +31,7 @@ html {
 
   .sidemenu {
     position: absolute;
-    bottom: 5%;
+    top: 5%;
     left: 5%;
     margin:auto;
     margin: 0 0 10px 10px;
@@ -71,9 +71,9 @@ html {
   }
   .responsive {
      float: left;
-     margin: 10px;
-     padding: 10px;
-     max-width: 300px;
-     height: 300px;
-     border: 1px solid black;
+     margin: 1px;
+     padding: 1px;
+     /*max-width: 300px;
+     height: 300px;*/
+
   }
