@@ -6,6 +6,10 @@
   font-family: Arial;
 
 }
+.bigprojcontainer {
+  float:left;
+  position: relative;
+}
 .projcontainer {
   float:left;
   position: relative;
