@@ -224,7 +224,7 @@ function myMap()
   myCenter=new google.maps.LatLng(29.760427, -95.369803);
   var mapOptions= {
     center:myCenter,
-    zoom:12, scrollwheel: false, draggable: false,
+    zoom:12, scrollwheel: false, draggable: true,
     mapTypeId:google.maps.MapTypeId.ROADMAP
   };
   var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
