@@ -26,7 +26,23 @@
   margin: 0 auto;
   padding:10px;
 }
-
+.spacea {
+  float:left;
+  text-align: right;
+  position: relative;
+  width:15%;
+  height: auto;
+  margin: 0 auto;
+  padding:10px;
+}
+.spaceb {
+  float:left;
+  position: relative;
+  width:60%;
+  height: auto;
+  margin: 0 auto;
+  padding:10px;
+}
 .image {
   display: block;
   width: 100%;
